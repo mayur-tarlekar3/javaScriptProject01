@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* center everything on screen */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+/* main container */
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+
+}
+
+/* number display */
+
+#count{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* button group */
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* butttons */
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
